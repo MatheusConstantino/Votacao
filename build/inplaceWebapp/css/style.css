@@ -1,0 +1,133 @@
+@import 'buttons.css';
+@import 'forms.css';
+@import 'fonts.css';
+@import 'nav.css';
+@import 'header.css';
+@import 'tipografia.css';
+@import 'grupos.css';
+
+* { 
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	align-content: center;
+	text-align: center;
+}
+html, body { 
+	height: 100%;
+
+}
+* html #tudo {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	color: #fff;
+}
+
+body{
+	background: url('./img/bg-repeat.jpg');
+	font-family: "Dusha"
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+label{
+    color:#fff;
+}
+
+hr{
+    height:2px; 
+    border:none; 
+    color:#fff; 
+    background-color:#fff; 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+
+p{
+	color: #fff;
+	padding-top: 15px;
+}
+
+td{
+	color: #fff;
+}
+ul{
+	color: #fff;
+}
+
+li{
+	color:#fff;
+}
+
+hr{
+		height:2px; 
+		width: 50%;
+		border:none; 
+		color:#fff; 
+		background-color:#fff; 
+		margin-top: 15px; 
+		margin-bottom: 15px;
+		margin-left: 25%;
+}
+
+/* Home */
+
+#home{
+	height: 100vh;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.controle{
+	width: 70%;
+	margin: 0 auto;
+	max-width: 300px;
+}
+
+#conteudo{
+	float: left;
+	margin-top: 150px;
+	width: 100%;
+}
+
+#home .titulo{
+	color: #fff;
+	font-family: 'Dusha';
+	font-weight: normal;
+	font-size: 2.5em;
+	margin: /* top right botton left */ 20px 0;
+}
+
+#home .taca-home{
+	margin: 20px 0;
+}
+
+#tudo { 
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+	h1, h2, h3, h4{
+		color: #000;
+	}
+
+	p{
+		font-style: italic;
+		color: #000;
+	}
+  }
+  

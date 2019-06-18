@@ -1,0 +1,30 @@
+.btn{
+	background: #F1f1f1;
+	padding: 10px 10px;
+	color: #333;
+	display: inline-block;
+	max-width: 300px;
+	margin: 5px auto;
+	font-size: 1em;
+	font-family: "Dusha";
+}
+
+.btn-primary{
+	background: #0093d8;
+	color: #fff;
+	font-family: "Dusha";
+	margin-top: 10px;
+}
+
+.btn-block{
+	display: block !important;
+	width: 100%;
+}
+
+.btn-sucess{
+	background: #6eba36;
+	color: #fff;
+    text-align: center;
+}
+
+
